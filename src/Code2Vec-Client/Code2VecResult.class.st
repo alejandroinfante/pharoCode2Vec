@@ -38,7 +38,6 @@ Code2VecResult >> gtInspectorTableDependenciesIn: composite [
 		row: #two.
 	tab transmit to: #one; andShow: [ :p |
 			p table
-				title: 'Name suggestions';
 				display: [ self suggestions ];
 				column: 'Suggested Name' evaluated: #methodName;
 				column: 'Probability' evaluated: #probability ].
